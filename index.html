@@ -2,33 +2,35 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<link type="text" rel="stylesheet" href="base.css"
+	>
 	<title>Survey Form</title>
 </head>
 <body>
 
 <form action="#" method="GET">
-<section>
+	<section>
 		<label for="first_name">First Name</label>
 			
 			<input type="text" id="first_name" name="first_name" disabled>
-</section>
+	</section>
 
-<section>
+	<section>
 		<label for="last_name">Last Name</label>
 			
-			<input type="text" id="last_name" name="last_name" required>
-</section>
+			<input type="text" id="last_name" name="last_name">
+	</section>
 
-<section>
+	<section>
 		
 		<label for="email_address">Email Address</label>
 			
 			<input type="email" id="email_address" name="email_address" placeholder="name@example.com">
-</section>
+	</section>
 
 		
 
-<section>
+	<section>
 		<label for="favorite_color">Favorite Color</label>
 		
 		<select name="favorite_color" id="favorite_color">
@@ -36,11 +38,21 @@
 			<option value="Red">Red</option>
 			<option value="Blue">Blue</option>
 		</select>
-</section>
+	</section>
 
-<section>
+	<section>
+		<label for="favorite animals">Favorite Animals</label>
+
+		<select name="favorite_animals" id="favorite_animals">
+
+			<option value="Dogs">Dogs</option>
+			<option value="Elephants">Elephants</option>
+			<option value="Giraffes">Giraffes</option>
+	</section>
+
+	<section>
 	<button type="submit">Submit</button>
-</section>
+	</section>
 
 
 
