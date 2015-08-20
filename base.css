@@ -1,0 +1,34 @@
+h1 {
+	color:#b22222;
+	text-align: center;
+	box-shadow: 10px 10px 10px 10px;
+}
+
+body {
+	background-image: url(http://learnwebtutorials.com/wp-content/themes/learnwebtutorials/images/slide-background4.jpg);
+	column-count: 2;
+}
+
+select {
+
+}
+	
+button {
+	color:black;
+	background-color: red;
+	
+}
+
+
+
+form {
+	display:inline;
+	font-family: serif;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+section {
+	padding: 10px 20px 30px 50px;
+}
+
