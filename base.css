@@ -6,17 +6,21 @@ h1 {
 
 body {
 	background-image: url(http://learnwebtutorials.com/wp-content/themes/learnwebtutorials/images/slide-background4.jpg);
-	column-count: 2;
+	font-family: 'Source Sans Pro', sans-serif;
 }
 
-select {
 
-}
 	
 button {
 	color:black;
 	background-color: red;
+	height:40px
+	width 60px;
 	
+}
+
+label {
+
 }
 
 
@@ -31,4 +35,6 @@ form {
 section {
 	padding: 10px 20px 30px 50px;
 }
+
+
 
